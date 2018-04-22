@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=UnifrakturMaguntia');
+
+div {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100vh;
+}
+
+header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fb9fa4;
+	font-family: 'UnifrakturMaguntia';
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 9rem;
+	font-weight: lighter;
+  white-space: nowrap;
+}
+
+input[type=text] {
+    width: 150px;
+		height: 20px;
+		font-family: 'Helvetica';
+		margin-top: : 30px;
+		margin-bottom: 10px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
